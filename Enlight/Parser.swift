@@ -9,14 +9,22 @@
 import Foundation
 import SourceKittenFramework
 
-struct Parser {
-    let dictionary: [String: SourceKitRepresentable]
+public struct Parser {
+    private let dictionary: [String: SourceKitRepresentable]
     
-    var json: JSON<Model>? {
+    public init?(path: String) {
+        guard let file = File(path: path) else {
+            print("File at \(path) doesn't exist")
+            return nil
+        }
+        dictionary = Structure(file: file).dictionary
+    }
+    
+    public var json: JSON<Model>? {
         return JSON<Model>.modelPrism.get(dictionary)
     }
     
-    var string: String {
+    public var string: String {
         return json.flatMap { self.string(for: $0) } ?? ""
     }
     

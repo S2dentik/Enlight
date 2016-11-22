@@ -8,21 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		FF0B9AEA1DAE5D61005D716E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AE91DAE5D61005D716E /* main.swift */; };
-		FF0B9AFA1DAE6284005D716E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AF91DAE6284005D716E /* Parser.swift */; };
-		FF0B9AFC1DAE9007005D716E /* Optics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AFB1DAE9007005D716E /* Optics.swift */; };
-		FF164B241DE4B19300D95777 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B231DE4B19300D95777 /* Yams.framework */; };
-		FF164B251DE4B19D00D95777 /* Yams.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B231DE4B19300D95777 /* Yams.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF2EDDC91DAFAEAE009DC13F /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EDDC81DAFAEAE009DC13F /* OptionalExtensions.swift */; };
-		FF2EDDD81DB02FD3009DC13F /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */; };
-		FF2EDDD91DB02FD3009DC13F /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */; };
-		FF2EDDDB1DB02FE0009DC13F /* SourceKittenFramework.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF2EDDDC1DB02FE0009DC13F /* SWXMLHash.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF2EDDDF1DB02FFA009DC13F /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EDDDE1DB02FFA009DC13F /* JSON.swift */; };
-		FF2EDDE11DB0305E009DC13F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EDDE01DB0305E009DC13F /* Operators.swift */; };
-		FF9494DE1DB242C400FC462E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9494DD1DB242C400FC462E /* Model.swift */; };
-		FF9494E11DB3ECDF00FC462E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9494E01DB3ECDF00FC462E /* StringExtensions.swift */; };
+		FF164B311DE4B29A00D95777 /* Enlight.h in Headers */ = {isa = PBXBuildFile; fileRef = FF164B2F1DE4B29A00D95777 /* Enlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF164B341DE4B29A00D95777 /* Enlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; };
+		FF164B351DE4B29A00D95777 /* Enlight.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF164B471DE4B32E00D95777 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B3C1DE4B32E00D95777 /* Operators.swift */; };
+		FF164B481DE4B32E00D95777 /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B3D1DE4B32E00D95777 /* OptionalExtensions.swift */; };
+		FF164B491DE4B32E00D95777 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B3E1DE4B32E00D95777 /* StringExtensions.swift */; };
+		FF164B4A1DE4B32E00D95777 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */; };
+		FF164B4B1DE4B32E00D95777 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B411DE4B32E00D95777 /* SWXMLHash.framework */; };
+		FF164B4C1DE4B32E00D95777 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B421DE4B32E00D95777 /* Yams.framework */; };
+		FF164B4D1DE4B32E00D95777 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B431DE4B32E00D95777 /* JSON.swift */; };
+		FF164B4E1DE4B32E00D95777 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B441DE4B32E00D95777 /* Model.swift */; };
+		FF164B4F1DE4B32E00D95777 /* Optics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B451DE4B32E00D95777 /* Optics.swift */; };
+		FF164B501DE4B32E00D95777 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B461DE4B32E00D95777 /* Parser.swift */; };
+		FF164B561DE4B60E00D95777 /* SourceKittenFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF164B571DE4B60E00D95777 /* SWXMLHash.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B411DE4B32E00D95777 /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF164B581DE4B60E00D95777 /* Yams.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B421DE4B32E00D95777 /* Yams.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF9494E41DB3F58C00FC462E /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = FF0B9AF61DAE6063005D716E /* test.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF164B321DE4B29A00D95777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0B9AD11DAE5D56005D716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF164B2C1DE4B29A00D95777;
+			remoteInfo = Enlight;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FF0B9AF11DAE5F6C005D716E /* Copy Frameworks */ = {
@@ -31,30 +44,43 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FF164B251DE4B19D00D95777 /* Yams.framework in Copy Frameworks */,
-				FF2EDDDB1DB02FE0009DC13F /* SourceKittenFramework.framework in Copy Frameworks */,
-				FF2EDDDC1DB02FE0009DC13F /* SWXMLHash.framework in Copy Frameworks */,
+				FF164B351DE4B29A00D95777 /* Enlight.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF164B551DE4B60800D95777 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF164B561DE4B60E00D95777 /* SourceKittenFramework.framework in CopyFiles */,
+				FF164B571DE4B60E00D95777 /* SWXMLHash.framework in CopyFiles */,
+				FF164B581DE4B60E00D95777 /* Yams.framework in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FF0B9AD91DAE5D56005D716E /* LensGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF0B9AE31DAE5D56005D716E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF0B9AE91DAE5D61005D716E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FF0B9AF61DAE6063005D716E /* test.swift */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = test.swift; sourceTree = "<group>"; };
-		FF0B9AF91DAE6284005D716E /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		FF0B9AFB1DAE9007005D716E /* Optics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optics.swift; sourceTree = "<group>"; };
-		FF164B231DE4B19300D95777 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Yams.framework; sourceTree = "<group>"; };
-		FF2EDDC81DAFAEAE009DC13F /* OptionalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
-		FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SourceKittenFramework.framework; sourceTree = "<group>"; };
-		FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SWXMLHash.framework; sourceTree = "<group>"; };
-		FF2EDDDE1DB02FFA009DC13F /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		FF2EDDE01DB0305E009DC13F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		FF9494DD1DB242C400FC462E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		FF9494E01DB3ECDF00FC462E /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		FF164B2D1DE4B29A00D95777 /* Enlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Enlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF164B2F1DE4B29A00D95777 /* Enlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enlight.h; sourceTree = "<group>"; };
+		FF164B301DE4B29A00D95777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF164B391DE4B31900D95777 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF164B3C1DE4B32E00D95777 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		FF164B3D1DE4B32E00D95777 /* OptionalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
+		FF164B3E1DE4B32E00D95777 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SourceKittenFramework.framework; sourceTree = "<group>"; };
+		FF164B411DE4B32E00D95777 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SWXMLHash.framework; sourceTree = "<group>"; };
+		FF164B421DE4B32E00D95777 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Yams.framework; sourceTree = "<group>"; };
+		FF164B431DE4B32E00D95777 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		FF164B441DE4B32E00D95777 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FF164B451DE4B32E00D95777 /* Optics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optics.swift; sourceTree = "<group>"; };
+		FF164B461DE4B32E00D95777 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +88,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF164B241DE4B19300D95777 /* Yams.framework in Frameworks */,
-				FF2EDDD91DB02FD3009DC13F /* SWXMLHash.framework in Frameworks */,
-				FF2EDDD81DB02FD3009DC13F /* SourceKittenFramework.framework in Frameworks */,
+				FF164B341DE4B29A00D95777 /* Enlight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF164B291DE4B29A00D95777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF164B4C1DE4B32E00D95777 /* Yams.framework in Frameworks */,
+				FF164B4B1DE4B32E00D95777 /* SWXMLHash.framework in Frameworks */,
+				FF164B4A1DE4B32E00D95777 /* SourceKittenFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				FF0B9ADB1DAE5D56005D716E /* LensGenerator */,
+				FF164B2E1DE4B29A00D95777 /* Enlight */,
 				FF0B9ADA1DAE5D56005D716E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				FF0B9AD91DAE5D56005D716E /* LensGenerator.app */,
+				FF164B2D1DE4B29A00D95777 /* Enlight.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,48 +126,60 @@
 		FF0B9ADB1DAE5D56005D716E /* LensGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				FF164B391DE4B31900D95777 /* Info.plist */,
 				FF0B9AE91DAE5D61005D716E /* main.swift */,
-				FF0B9AF91DAE6284005D716E /* Parser.swift */,
-				FF0B9AFB1DAE9007005D716E /* Optics.swift */,
-				FF2EDDDE1DB02FFA009DC13F /* JSON.swift */,
 				FF0B9AF61DAE6063005D716E /* test.swift */,
-				FF9494DD1DB242C400FC462E /* Model.swift */,
-				FF164B271DE4B1DA00D95777 /* Extensions */,
-				FF164B261DE4B1B500D95777 /* Resources */,
-				FF2EDDD41DB02FD3009DC13F /* Frameworks */,
 			);
 			path = LensGenerator;
 			sourceTree = "<group>";
 		};
-		FF164B261DE4B1B500D95777 /* Resources */ = {
+		FF164B2E1DE4B29A00D95777 /* Enlight */ = {
 			isa = PBXGroup;
 			children = (
-				FF0B9AE31DAE5D56005D716E /* Info.plist */,
+				FF164B3B1DE4B32E00D95777 /* Extensions */,
+				FF164B3F1DE4B32E00D95777 /* Frameworks */,
+				FF164B431DE4B32E00D95777 /* JSON.swift */,
+				FF164B441DE4B32E00D95777 /* Model.swift */,
+				FF164B451DE4B32E00D95777 /* Optics.swift */,
+				FF164B461DE4B32E00D95777 /* Parser.swift */,
+				FF164B2F1DE4B29A00D95777 /* Enlight.h */,
+				FF164B301DE4B29A00D95777 /* Info.plist */,
 			);
-			name = Resources;
+			path = Enlight;
 			sourceTree = "<group>";
 		};
-		FF164B271DE4B1DA00D95777 /* Extensions */ = {
+		FF164B3B1DE4B32E00D95777 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FF2EDDC81DAFAEAE009DC13F /* OptionalExtensions.swift */,
-				FF2EDDE01DB0305E009DC13F /* Operators.swift */,
-				FF9494E01DB3ECDF00FC462E /* StringExtensions.swift */,
+				FF164B3C1DE4B32E00D95777 /* Operators.swift */,
+				FF164B3D1DE4B32E00D95777 /* OptionalExtensions.swift */,
+				FF164B3E1DE4B32E00D95777 /* StringExtensions.swift */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		FF2EDDD41DB02FD3009DC13F /* Frameworks */ = {
+		FF164B3F1DE4B32E00D95777 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF164B231DE4B19300D95777 /* Yams.framework */,
-				FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */,
-				FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */,
+				FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */,
+				FF164B411DE4B32E00D95777 /* SWXMLHash.framework */,
+				FF164B421DE4B32E00D95777 /* Yams.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF164B2A1DE4B29A00D95777 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF164B311DE4B29A00D95777 /* Enlight.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FF0B9AD81DAE5D56005D716E /* LensGenerator */ = {
@@ -146,11 +194,31 @@
 			buildRules = (
 			);
 			dependencies = (
+				FF164B331DE4B29A00D95777 /* PBXTargetDependency */,
 			);
 			name = LensGenerator;
 			productName = LensGenerator;
 			productReference = FF0B9AD91DAE5D56005D716E /* LensGenerator.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FF164B2C1DE4B29A00D95777 /* Enlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF164B361DE4B29A00D95777 /* Build configuration list for PBXNativeTarget "Enlight" */;
+			buildPhases = (
+				FF164B281DE4B29A00D95777 /* Sources */,
+				FF164B291DE4B29A00D95777 /* Frameworks */,
+				FF164B2A1DE4B29A00D95777 /* Headers */,
+				FF164B2B1DE4B29A00D95777 /* Resources */,
+				FF164B551DE4B60800D95777 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enlight;
+			productName = Enlight;
+			productReference = FF164B2D1DE4B29A00D95777 /* Enlight.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -159,12 +227,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Alexandru Culeva";
 				TargetAttributes = {
 					FF0B9AD81DAE5D56005D716E = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = QE33WF5A23;
+						ProvisioningStyle = Automatic;
+					};
+					FF164B2C1DE4B29A00D95777 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QE33WF5A23;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -183,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				FF0B9AD81DAE5D56005D716E /* LensGenerator */,
+				FF164B2C1DE4B29A00D95777 /* Enlight */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +271,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF164B2B1DE4B29A00D95777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,18 +285,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9494E11DB3ECDF00FC462E /* StringExtensions.swift in Sources */,
-				FF9494DE1DB242C400FC462E /* Model.swift in Sources */,
-				FF0B9AFC1DAE9007005D716E /* Optics.swift in Sources */,
-				FF2EDDDF1DB02FFA009DC13F /* JSON.swift in Sources */,
-				FF2EDDC91DAFAEAE009DC13F /* OptionalExtensions.swift in Sources */,
-				FF0B9AFA1DAE6284005D716E /* Parser.swift in Sources */,
 				FF0B9AEA1DAE5D61005D716E /* main.swift in Sources */,
-				FF2EDDE11DB0305E009DC13F /* Operators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF164B281DE4B29A00D95777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF164B4E1DE4B32E00D95777 /* Model.swift in Sources */,
+				FF164B4F1DE4B32E00D95777 /* Optics.swift in Sources */,
+				FF164B491DE4B32E00D95777 /* StringExtensions.swift in Sources */,
+				FF164B471DE4B32E00D95777 /* Operators.swift in Sources */,
+				FF164B481DE4B32E00D95777 /* OptionalExtensions.swift in Sources */,
+				FF164B4D1DE4B32E00D95777 /* JSON.swift in Sources */,
+				FF164B501DE4B32E00D95777 /* Parser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF164B331DE4B29A00D95777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF164B2C1DE4B29A00D95777 /* Enlight */;
+			targetProxy = FF164B321DE4B29A00D95777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FF0B9AE41DAE5D56005D716E /* Debug */ = {
@@ -235,6 +332,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -284,6 +382,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -310,13 +409,14 @@
 		FF0B9AE71DAE5D56005D716E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QE33WF5A23;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LensGenerator",
-					"$(PROJECT_DIR)/LensGenerator/Frameworks",
 				);
 				INFOPLIST_FILE = LensGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -329,19 +429,79 @@
 		FF0B9AE81DAE5D56005D716E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QE33WF5A23;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LensGenerator",
-					"$(PROJECT_DIR)/LensGenerator/Frameworks",
 				);
 				INFOPLIST_FILE = LensGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF164B371DE4B29A00D95777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Enlight/Frameworks",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Enlight/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF164B381DE4B29A00D95777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Enlight/Frameworks",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Enlight/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -362,6 +522,15 @@
 			buildConfigurations = (
 				FF0B9AE71DAE5D56005D716E /* Debug */,
 				FF0B9AE81DAE5D56005D716E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF164B361DE4B29A00D95777 /* Build configuration list for PBXNativeTarget "Enlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF164B371DE4B29A00D95777 /* Debug */,
+				FF164B381DE4B29A00D95777 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

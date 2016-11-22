@@ -7,10 +7,9 @@
 //
 
 import Foundation
-import SourceKittenFramework
+import Enlight
 
-let file = File(path: Bundle.main.path(forResource: "test", ofType: "swift")!)
-let dictionary = Structure(file: file!).dictionary
-let string = Parser(dictionary: dictionary).string
+let path = Bundle.main.path(forResource: "test", ofType: "swift")!
+let string = Parser(path: path)!.string
 
 print(string)

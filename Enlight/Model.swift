@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Model {
+public struct Model {
     let name: String
     let type: String
     

@@ -9,7 +9,7 @@
 import Foundation
 import SourceKittenFramework
 
-indirect enum JSON<T> {
+public indirect enum JSON<T> {
     case child(T)
     case array([JSON<T>])
     case dictionary([String: JSON<T>])
@@ -35,7 +35,7 @@ extension JSON {
 }
 
 extension JSON: CustomDebugStringConvertible {
-    var debugDescription: String {
+    public var debugDescription: String {
         return recursiveDescription(tabs: 0)
     }
     

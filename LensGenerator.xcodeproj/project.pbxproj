@@ -10,13 +10,13 @@
 		FF0B9AEA1DAE5D61005D716E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AE91DAE5D61005D716E /* main.swift */; };
 		FF0B9AFA1DAE6284005D716E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AF91DAE6284005D716E /* Parser.swift */; };
 		FF0B9AFC1DAE9007005D716E /* Optics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AFB1DAE9007005D716E /* Optics.swift */; };
+		FF164B241DE4B19300D95777 /* Yams.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B231DE4B19300D95777 /* Yams.framework */; };
+		FF164B251DE4B19D00D95777 /* Yams.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B231DE4B19300D95777 /* Yams.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF2EDDC91DAFAEAE009DC13F /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EDDC81DAFAEAE009DC13F /* OptionalExtensions.swift */; };
 		FF2EDDD81DB02FD3009DC13F /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */; };
 		FF2EDDD91DB02FD3009DC13F /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */; };
-		FF2EDDDA1DB02FD3009DC13F /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD71DB02FD3009DC13F /* Yaml.framework */; };
 		FF2EDDDB1DB02FE0009DC13F /* SourceKittenFramework.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF2EDDDC1DB02FE0009DC13F /* SWXMLHash.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF2EDDDD1DB02FE0009DC13F /* Yaml.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF2EDDD71DB02FD3009DC13F /* Yaml.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF2EDDDF1DB02FFA009DC13F /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EDDDE1DB02FFA009DC13F /* JSON.swift */; };
 		FF2EDDE11DB0305E009DC13F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EDDE01DB0305E009DC13F /* Operators.swift */; };
 		FF9494DE1DB242C400FC462E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9494DD1DB242C400FC462E /* Model.swift */; };
@@ -31,9 +31,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				FF164B251DE4B19D00D95777 /* Yams.framework in Copy Frameworks */,
 				FF2EDDDB1DB02FE0009DC13F /* SourceKittenFramework.framework in Copy Frameworks */,
 				FF2EDDDC1DB02FE0009DC13F /* SWXMLHash.framework in Copy Frameworks */,
-				FF2EDDDD1DB02FE0009DC13F /* Yaml.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,10 +47,10 @@
 		FF0B9AF61DAE6063005D716E /* test.swift */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = test.swift; sourceTree = "<group>"; };
 		FF0B9AF91DAE6284005D716E /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		FF0B9AFB1DAE9007005D716E /* Optics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optics.swift; sourceTree = "<group>"; };
+		FF164B231DE4B19300D95777 /* Yams.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Yams.framework; sourceTree = "<group>"; };
 		FF2EDDC81DAFAEAE009DC13F /* OptionalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
 		FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SourceKittenFramework.framework; sourceTree = "<group>"; };
 		FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SWXMLHash.framework; sourceTree = "<group>"; };
-		FF2EDDD71DB02FD3009DC13F /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Yaml.framework; sourceTree = "<group>"; };
 		FF2EDDDE1DB02FFA009DC13F /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 		FF2EDDE01DB0305E009DC13F /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		FF9494DD1DB242C400FC462E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -62,9 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF164B241DE4B19300D95777 /* Yams.framework in Frameworks */,
 				FF2EDDD91DB02FD3009DC13F /* SWXMLHash.framework in Frameworks */,
 				FF2EDDD81DB02FD3009DC13F /* SourceKittenFramework.framework in Frameworks */,
-				FF2EDDDA1DB02FD3009DC13F /* Yaml.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,27 +90,43 @@
 		FF0B9ADB1DAE5D56005D716E /* LensGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				FF0B9AE31DAE5D56005D716E /* Info.plist */,
 				FF0B9AE91DAE5D61005D716E /* main.swift */,
 				FF0B9AF91DAE6284005D716E /* Parser.swift */,
 				FF0B9AFB1DAE9007005D716E /* Optics.swift */,
-				FF2EDDC81DAFAEAE009DC13F /* OptionalExtensions.swift */,
 				FF2EDDDE1DB02FFA009DC13F /* JSON.swift */,
 				FF0B9AF61DAE6063005D716E /* test.swift */,
-				FF2EDDE01DB0305E009DC13F /* Operators.swift */,
 				FF9494DD1DB242C400FC462E /* Model.swift */,
+				FF164B271DE4B1DA00D95777 /* Extensions */,
+				FF164B261DE4B1B500D95777 /* Resources */,
 				FF2EDDD41DB02FD3009DC13F /* Frameworks */,
-				FF9494E01DB3ECDF00FC462E /* StringExtensions.swift */,
 			);
 			path = LensGenerator;
+			sourceTree = "<group>";
+		};
+		FF164B261DE4B1B500D95777 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF0B9AE31DAE5D56005D716E /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF164B271DE4B1DA00D95777 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF2EDDC81DAFAEAE009DC13F /* OptionalExtensions.swift */,
+				FF2EDDE01DB0305E009DC13F /* Operators.swift */,
+				FF9494E01DB3ECDF00FC462E /* StringExtensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		FF2EDDD41DB02FD3009DC13F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF164B231DE4B19300D95777 /* Yams.framework */,
 				FF2EDDD51DB02FD3009DC13F /* SourceKittenFramework.framework */,
 				FF2EDDD61DB02FD3009DC13F /* SWXMLHash.framework */,
-				FF2EDDD71DB02FD3009DC13F /* Yaml.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";

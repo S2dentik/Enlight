@@ -42,7 +42,6 @@ func lens(container: String, models: [Model]) -> String {
     return "extension \(container) {" + newLine +
         models.map { lens(container: container, models: models, name: $0.name, tabs: 1) }.joined(separator: "\n\n") + newLine +
     "}"
-//        tab +
 }
 
 func lens(container: String, models: [Model], name: String, tabs: Int = 0) -> String {

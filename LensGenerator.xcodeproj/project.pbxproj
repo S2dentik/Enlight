@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FF0B9AEA1DAE5D61005D716E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AE91DAE5D61005D716E /* main.swift */; };
-		FF164B311DE4B29A00D95777 /* Enlight.h in Headers */ = {isa = PBXBuildFile; fileRef = FF164B2F1DE4B29A00D95777 /* Enlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF164B341DE4B29A00D95777 /* Enlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; };
 		FF164B351DE4B29A00D95777 /* Enlight.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF164B471DE4B32E00D95777 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B3C1DE4B32E00D95777 /* Operators.swift */; };
@@ -24,7 +23,13 @@
 		FF164B561DE4B60E00D95777 /* SourceKittenFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF164B571DE4B60E00D95777 /* SWXMLHash.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B411DE4B32E00D95777 /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF164B581DE4B60E00D95777 /* Yams.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B421DE4B32E00D95777 /* Yams.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF7B397D1DE4FB2B0035DB1F /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B397C1DE4FB2B0035DB1F /* SourceEditorExtension.swift */; };
+		FF7B397F1DE4FB2B0035DB1F /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B397E1DE4FB2B0035DB1F /* SourceEditorCommand.swift */; };
+		FF7B39831DE4FB2B0035DB1F /* Optics.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF7B39751DE4FB2B0035DB1F /* Optics.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF7B39881DE510420035DB1F /* Enlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; };
+		FF7B398A1DE5108E0035DB1F /* Enlight.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF9494E41DB3F58C00FC462E /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = FF0B9AF61DAE6063005D716E /* test.swift */; };
+		FF9B84951E0097AB00556638 /* sourcekitd.framework in Resources */ = {isa = PBXBuildFile; fileRef = FF8165151E00910F006E76C0 /* sourcekitd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = FF164B2C1DE4B29A00D95777;
 			remoteInfo = Enlight;
+		};
+		FF7B39811DE4FB2B0035DB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0B9AD11DAE5D56005D716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7B39741DE4FB2B0035DB1F;
+			remoteInfo = EnlightExtension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -61,6 +73,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF7B39871DE4FB2B0035DB1F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF7B39831DE4FB2B0035DB1F /* Optics.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7B39891DE510830035DB1F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF7B398A1DE5108E0035DB1F /* Enlight.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -68,7 +101,6 @@
 		FF0B9AE91DAE5D61005D716E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FF0B9AF61DAE6063005D716E /* test.swift */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = test.swift; sourceTree = "<group>"; };
 		FF164B2D1DE4B29A00D95777 /* Enlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Enlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF164B2F1DE4B29A00D95777 /* Enlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Enlight.h; sourceTree = "<group>"; };
 		FF164B301DE4B29A00D95777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF164B391DE4B31900D95777 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF164B3C1DE4B32E00D95777 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
@@ -81,6 +113,13 @@
 		FF164B441DE4B32E00D95777 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FF164B451DE4B32E00D95777 /* Optics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optics.swift; sourceTree = "<group>"; };
 		FF164B461DE4B32E00D95777 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		FF7B39751DE4FB2B0035DB1F /* Optics.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Optics.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7B39771DE4FB2B0035DB1F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FF7B397B1DE4FB2B0035DB1F /* EnlightExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnlightExtension.entitlements; sourceTree = "<group>"; };
+		FF7B397C1DE4FB2B0035DB1F /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		FF7B397E1DE4FB2B0035DB1F /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		FF7B39801DE4FB2B0035DB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8165151E00910F006E76C0 /* sourcekitd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sourcekitd.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +141,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF7B39721DE4FB2B0035DB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B39881DE510420035DB1F /* Enlight.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,6 +157,8 @@
 			children = (
 				FF0B9ADB1DAE5D56005D716E /* LensGenerator */,
 				FF164B2E1DE4B29A00D95777 /* Enlight */,
+				FF7B39791DE4FB2B0035DB1F /* EnlightExtension */,
+				FF7B39761DE4FB2B0035DB1F /* Frameworks */,
 				FF0B9ADA1DAE5D56005D716E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +168,7 @@
 			children = (
 				FF0B9AD91DAE5D56005D716E /* LensGenerator.app */,
 				FF164B2D1DE4B29A00D95777 /* Enlight.framework */,
+				FF7B39751DE4FB2B0035DB1F /* Optics.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +192,6 @@
 				FF164B441DE4B32E00D95777 /* Model.swift */,
 				FF164B451DE4B32E00D95777 /* Optics.swift */,
 				FF164B461DE4B32E00D95777 /* Parser.swift */,
-				FF164B2F1DE4B29A00D95777 /* Enlight.h */,
 				FF164B301DE4B29A00D95777 /* Info.plist */,
 			);
 			path = Enlight;
@@ -161,6 +210,7 @@
 		FF164B3F1DE4B32E00D95777 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF8165151E00910F006E76C0 /* sourcekitd.framework */,
 				FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */,
 				FF164B411DE4B32E00D95777 /* SWXMLHash.framework */,
 				FF164B421DE4B32E00D95777 /* Yams.framework */,
@@ -168,18 +218,34 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		FF164B2A1DE4B29A00D95777 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF164B311DE4B29A00D95777 /* Enlight.h in Headers */,
+		FF7B39761DE4FB2B0035DB1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B39771DE4FB2B0035DB1F /* Cocoa.framework */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			name = Frameworks;
+			sourceTree = "<group>";
 		};
-/* End PBXHeadersBuildPhase section */
+		FF7B39791DE4FB2B0035DB1F /* EnlightExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B397C1DE4FB2B0035DB1F /* SourceEditorExtension.swift */,
+				FF7B397E1DE4FB2B0035DB1F /* SourceEditorCommand.swift */,
+				FF7B39801DE4FB2B0035DB1F /* Info.plist */,
+				FF7B397A1DE4FB2B0035DB1F /* Supporting Files */,
+			);
+			path = EnlightExtension;
+			sourceTree = "<group>";
+		};
+		FF7B397A1DE4FB2B0035DB1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7B397B1DE4FB2B0035DB1F /* EnlightExtension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		FF0B9AD81DAE5D56005D716E /* LensGenerator */ = {
@@ -190,11 +256,13 @@
 				FF0B9AD61DAE5D56005D716E /* Frameworks */,
 				FF0B9AD71DAE5D56005D716E /* Resources */,
 				FF0B9AF11DAE5F6C005D716E /* Copy Frameworks */,
+				FF7B39871DE4FB2B0035DB1F /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				FF164B331DE4B29A00D95777 /* PBXTargetDependency */,
+				FF7B39821DE4FB2B0035DB1F /* PBXTargetDependency */,
 			);
 			name = LensGenerator;
 			productName = LensGenerator;
@@ -207,8 +275,6 @@
 			buildPhases = (
 				FF164B281DE4B29A00D95777 /* Sources */,
 				FF164B291DE4B29A00D95777 /* Frameworks */,
-				FF164B2A1DE4B29A00D95777 /* Headers */,
-				FF164B2B1DE4B29A00D95777 /* Resources */,
 				FF164B551DE4B60800D95777 /* CopyFiles */,
 			);
 			buildRules = (
@@ -220,14 +286,32 @@
 			productReference = FF164B2D1DE4B29A00D95777 /* Enlight.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FF7B39741DE4FB2B0035DB1F /* EnlightExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7B39841DE4FB2B0035DB1F /* Build configuration list for PBXNativeTarget "EnlightExtension" */;
+			buildPhases = (
+				FF7B39711DE4FB2B0035DB1F /* Sources */,
+				FF7B39721DE4FB2B0035DB1F /* Frameworks */,
+				FF7B39731DE4FB2B0035DB1F /* Resources */,
+				FF7B39891DE510830035DB1F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnlightExtension;
+			productName = EnlightExtension;
+			productReference = FF7B39751DE4FB2B0035DB1F /* Optics.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		FF0B9AD11DAE5D56005D716E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Alexandru Culeva";
 				TargetAttributes = {
 					FF0B9AD81DAE5D56005D716E = {
@@ -239,6 +323,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = QE33WF5A23;
 						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+					FF7B39741DE4FB2B0035DB1F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QE33WF5A23;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -258,6 +347,7 @@
 			targets = (
 				FF0B9AD81DAE5D56005D716E /* LensGenerator */,
 				FF164B2C1DE4B29A00D95777 /* Enlight */,
+				FF7B39741DE4FB2B0035DB1F /* EnlightExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -271,10 +361,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF164B2B1DE4B29A00D95777 /* Resources */ = {
+		FF7B39731DE4FB2B0035DB1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9B84951E0097AB00556638 /* sourcekitd.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +394,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF7B39711DE4FB2B0035DB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7B397D1DE4FB2B0035DB1F /* SourceEditorExtension.swift in Sources */,
+				FF7B397F1DE4FB2B0035DB1F /* SourceEditorCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,6 +410,11 @@
 			isa = PBXTargetDependency;
 			target = FF164B2C1DE4B29A00D95777 /* Enlight */;
 			targetProxy = FF164B321DE4B29A00D95777 /* PBXContainerItemProxy */;
+		};
+		FF7B39821DE4FB2B0035DB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7B39741DE4FB2B0035DB1F /* EnlightExtension */;
+			targetProxy = FF7B39811DE4FB2B0035DB1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -361,6 +466,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
@@ -403,6 +509,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -422,6 +529,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -442,6 +550,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -450,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -466,9 +576,12 @@
 				INFOPLIST_FILE = Enlight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -480,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,12 +610,53 @@
 				INFOPLIST_FILE = Enlight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF7B39851DE4FB2B0035DB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EnlightExtension/EnlightExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				INFOPLIST_FILE = EnlightExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator.EnlightExtension;
+				PRODUCT_NAME = Optics;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF7B39861DE4FB2B0035DB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EnlightExtension/EnlightExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				INFOPLIST_FILE = EnlightExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator.EnlightExtension;
+				PRODUCT_NAME = Optics;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -531,6 +686,15 @@
 			buildConfigurations = (
 				FF164B371DE4B29A00D95777 /* Debug */,
 				FF164B381DE4B29A00D95777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7B39841DE4FB2B0035DB1F /* Build configuration list for PBXNativeTarget "EnlightExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7B39851DE4FB2B0035DB1F /* Debug */,
+				FF7B39861DE4FB2B0035DB1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

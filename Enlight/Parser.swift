@@ -20,6 +20,10 @@ public struct Parser {
         dictionary = Structure(file: file).dictionary
     }
     
+    public init(source: String) {
+        dictionary = Structure(file: File(contents: source)).dictionary
+    }
+    
     public var json: JSON<Model>? {
         return JSON<Model>.modelPrism.get(dictionary)
     }

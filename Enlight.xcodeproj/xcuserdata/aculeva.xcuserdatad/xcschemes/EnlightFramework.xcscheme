@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FF164B2C1DE4B29A00D95777"
-               BuildableName = "Enlight.framework"
-               BlueprintName = "Enlight"
-               ReferencedContainer = "container:LensGenerator.xcodeproj">
+               BuildableName = "EnlightFramework.framework"
+               BlueprintName = "EnlightFramework"
+               ReferencedContainer = "container:Enlight.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF6882521E00A00B0003AC49"
+               BuildableName = "EnlightTests.xctest"
+               BlueprintName = "EnlightTests"
+               ReferencedContainer = "container:Enlight.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FF164B2C1DE4B29A00D95777"
+            BuildableName = "EnlightFramework.framework"
+            BlueprintName = "EnlightFramework"
+            ReferencedContainer = "container:Enlight.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -46,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF164B2C1DE4B29A00D95777"
-            BuildableName = "Enlight.framework"
-            BlueprintName = "Enlight"
-            ReferencedContainer = "container:LensGenerator.xcodeproj">
+            BuildableName = "EnlightFramework.framework"
+            BlueprintName = "EnlightFramework"
+            ReferencedContainer = "container:Enlight.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FF164B2C1DE4B29A00D95777"
-            BuildableName = "Enlight.framework"
-            BlueprintName = "Enlight"
-            ReferencedContainer = "container:LensGenerator.xcodeproj">
+            BuildableName = "EnlightFramework.framework"
+            BlueprintName = "EnlightFramework"
+            ReferencedContainer = "container:Enlight.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

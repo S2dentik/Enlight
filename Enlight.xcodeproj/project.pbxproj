@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF0B9AEA1DAE5D61005D716E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B9AE91DAE5D61005D716E /* main.swift */; };
-		FF164B341DE4B29A00D95777 /* Enlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; };
-		FF164B351DE4B29A00D95777 /* Enlight.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF164B471DE4B32E00D95777 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B3C1DE4B32E00D95777 /* Operators.swift */; };
 		FF164B481DE4B32E00D95777 /* OptionalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B3D1DE4B32E00D95777 /* OptionalExtensions.swift */; };
 		FF164B491DE4B32E00D95777 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF164B3E1DE4B32E00D95777 /* StringExtensions.swift */; };
@@ -23,44 +20,49 @@
 		FF164B561DE4B60E00D95777 /* SourceKittenFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF164B571DE4B60E00D95777 /* SWXMLHash.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B411DE4B32E00D95777 /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF164B581DE4B60E00D95777 /* Yams.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B421DE4B32E00D95777 /* Yams.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF7B397D1DE4FB2B0035DB1F /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B397C1DE4FB2B0035DB1F /* SourceEditorExtension.swift */; };
+		FF3E6C181E00B58300E362EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3E6C171E00B58300E362EC /* main.swift */; };
+		FF6882561E00A00B0003AC49 /* EnlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6882551E00A00B0003AC49 /* EnlightTests.swift */; };
+		FF6882581E00A00B0003AC49 /* EnlightFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* EnlightFramework.framework */; };
+		FF6882631E00A10A0003AC49 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6882621E00A10A0003AC49 /* TestFile.swift */; };
+		FF6882651E00A2EA0003AC49 /* SimpleStructWithNoCustomInit.swift in Resources */ = {isa = PBXBuildFile; fileRef = FF68825F1E00A0600003AC49 /* SimpleStructWithNoCustomInit.swift */; };
+		FF68826D1E00AA500003AC49 /* SimpleStructWithNoCustomInitOutput.swift in Resources */ = {isa = PBXBuildFile; fileRef = FF68826B1E00A8ED0003AC49 /* SimpleStructWithNoCustomInitOutput.swift */; };
 		FF7B397F1DE4FB2B0035DB1F /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B397E1DE4FB2B0035DB1F /* SourceEditorCommand.swift */; };
-		FF7B39831DE4FB2B0035DB1F /* Optics.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF7B39751DE4FB2B0035DB1F /* Optics.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FF7B39881DE510420035DB1F /* Enlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; };
-		FF7B398A1DE5108E0035DB1F /* Enlight.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* Enlight.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF9494E41DB3F58C00FC462E /* test.swift in Resources */ = {isa = PBXBuildFile; fileRef = FF0B9AF61DAE6063005D716E /* test.swift */; };
-		FF9B84951E0097AB00556638 /* sourcekitd.framework in Resources */ = {isa = PBXBuildFile; fileRef = FF8165151E00910F006E76C0 /* sourcekitd.framework */; };
+		FFE989AC1E014BFA009B28EE /* Optics.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF7B39751DE4FB2B0035DB1F /* Optics.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FFE989AF1E014E4A009B28EE /* EnlightFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF164B2D1DE4B29A00D95777 /* EnlightFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FF164B321DE4B29A00D95777 /* PBXContainerItemProxy */ = {
+		FF3E6C191E00B59B00E362EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FF0B9AD11DAE5D56005D716E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FF164B2C1DE4B29A00D95777;
 			remoteInfo = Enlight;
 		};
-		FF7B39811DE4FB2B0035DB1F /* PBXContainerItemProxy */ = {
+		FF6882591E00A00B0003AC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0B9AD11DAE5D56005D716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF164B2C1DE4B29A00D95777;
+			remoteInfo = Enlight;
+		};
+		FFE989A81E014813009B28EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FF0B9AD11DAE5D56005D716E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FF7B39741DE4FB2B0035DB1F;
 			remoteInfo = EnlightExtension;
 		};
+		FFEEF8A31E00BDC8000080EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0B9AD11DAE5D56005D716E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF164B2C1DE4B29A00D95777;
+			remoteInfo = EnlightFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FF0B9AF11DAE5F6C005D716E /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FF164B351DE4B29A00D95777 /* Enlight.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FF164B551DE4B60800D95777 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,36 +75,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF7B39871DE4FB2B0035DB1F /* Embed App Extensions */ = {
+		FF3E6C1D1E00B5BB00E362EC /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FF7B39831DE4FB2B0035DB1F /* Optics.appex in Embed App Extensions */,
+				FFE989AC1E014BFA009B28EE /* Optics.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF7B39891DE510830035DB1F /* CopyFiles */ = {
+		FF3E6C201E00B75800E362EC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FF7B398A1DE5108E0035DB1F /* Enlight.framework in CopyFiles */,
+				FFE989AF1E014E4A009B28EE /* EnlightFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6882671E00A4950003AC49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FF0B9AD91DAE5D56005D716E /* LensGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF0B9AE91DAE5D61005D716E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		FF0B9AF61DAE6063005D716E /* test.swift */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = test.swift; sourceTree = "<group>"; };
-		FF164B2D1DE4B29A00D95777 /* Enlight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Enlight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF164B2D1DE4B29A00D95777 /* EnlightFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnlightFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF164B301DE4B29A00D95777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF164B391DE4B31900D95777 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF164B3C1DE4B32E00D95777 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		FF164B3D1DE4B32E00D95777 /* OptionalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalExtensions.swift; sourceTree = "<group>"; };
 		FF164B3E1DE4B32E00D95777 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
@@ -113,24 +120,23 @@
 		FF164B441DE4B32E00D95777 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		FF164B451DE4B32E00D95777 /* Optics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optics.swift; sourceTree = "<group>"; };
 		FF164B461DE4B32E00D95777 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		FF3E6C0A1E00B57200E362EC /* enlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = enlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3E6C131E00B57200E362EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3E6C171E00B58300E362EC /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Enlight/main.swift; sourceTree = SOURCE_ROOT; };
+		FF6882531E00A00B0003AC49 /* EnlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6882551E00A00B0003AC49 /* EnlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnlightTests.swift; sourceTree = "<group>"; };
+		FF6882571E00A00B0003AC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF68825F1E00A0600003AC49 /* SimpleStructWithNoCustomInit.swift */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = SimpleStructWithNoCustomInit.swift; sourceTree = "<group>"; };
+		FF6882621E00A10A0003AC49 /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		FF68826B1E00A8ED0003AC49 /* SimpleStructWithNoCustomInitOutput.swift */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; path = SimpleStructWithNoCustomInitOutput.swift; sourceTree = "<group>"; };
 		FF7B39751DE4FB2B0035DB1F /* Optics.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Optics.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF7B39771DE4FB2B0035DB1F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FF7B397B1DE4FB2B0035DB1F /* EnlightExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EnlightExtension.entitlements; sourceTree = "<group>"; };
-		FF7B397C1DE4FB2B0035DB1F /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
 		FF7B397E1DE4FB2B0035DB1F /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
 		FF7B39801DE4FB2B0035DB1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF8165151E00910F006E76C0 /* sourcekitd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = sourcekitd.framework; sourceTree = "<group>"; };
+		FFC1CD271E00AE5500DAAFC0 /* Enlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Enlight.framework; path = "../../Library/Developer/Xcode/DerivedData/LensGenerator-gdhqmszbwrixbxewtmqewhajscym/Build/Products/Debug/Optics.appex/Contents/Frameworks/Enlight.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FF0B9AD61DAE5D56005D716E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF164B341DE4B29A00D95777 /* Enlight.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FF164B291DE4B29A00D95777 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,11 +147,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF7B39721DE4FB2B0035DB1F /* Frameworks */ = {
+		FF6882501E00A00B0003AC49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7B39881DE510420035DB1F /* Enlight.framework in Frameworks */,
+				FF6882581E00A00B0003AC49 /* EnlightFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,32 +161,24 @@
 		FF0B9AD01DAE5D56005D716E = {
 			isa = PBXGroup;
 			children = (
-				FF0B9ADB1DAE5D56005D716E /* LensGenerator */,
 				FF164B2E1DE4B29A00D95777 /* Enlight */,
 				FF7B39791DE4FB2B0035DB1F /* EnlightExtension */,
-				FF7B39761DE4FB2B0035DB1F /* Frameworks */,
+				FF6882541E00A00B0003AC49 /* EnlightTests */,
+				FF3E6C0B1E00B57200E362EC /* enlight */,
 				FF0B9ADA1DAE5D56005D716E /* Products */,
+				FFC1CD261E00AE5500DAAFC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		FF0B9ADA1DAE5D56005D716E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF0B9AD91DAE5D56005D716E /* LensGenerator.app */,
-				FF164B2D1DE4B29A00D95777 /* Enlight.framework */,
+				FF164B2D1DE4B29A00D95777 /* EnlightFramework.framework */,
 				FF7B39751DE4FB2B0035DB1F /* Optics.appex */,
+				FF6882531E00A00B0003AC49 /* EnlightTests.xctest */,
+				FF3E6C0A1E00B57200E362EC /* enlight.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FF0B9ADB1DAE5D56005D716E /* LensGenerator */ = {
-			isa = PBXGroup;
-			children = (
-				FF164B391DE4B31900D95777 /* Info.plist */,
-				FF0B9AE91DAE5D61005D716E /* main.swift */,
-				FF0B9AF61DAE6063005D716E /* test.swift */,
-			);
-			path = LensGenerator;
 			sourceTree = "<group>";
 		};
 		FF164B2E1DE4B29A00D95777 /* Enlight */ = {
@@ -210,7 +208,6 @@
 		FF164B3F1DE4B32E00D95777 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF8165151E00910F006E76C0 /* sourcekitd.framework */,
 				FF164B401DE4B32E00D95777 /* SourceKittenFramework.framework */,
 				FF164B411DE4B32E00D95777 /* SWXMLHash.framework */,
 				FF164B421DE4B32E00D95777 /* Yams.framework */,
@@ -218,18 +215,38 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF7B39761DE4FB2B0035DB1F /* Frameworks */ = {
+		FF3E6C0B1E00B57200E362EC /* enlight */ = {
 			isa = PBXGroup;
 			children = (
-				FF7B39771DE4FB2B0035DB1F /* Cocoa.framework */,
+				FF3E6C131E00B57200E362EC /* Info.plist */,
+				FF3E6C171E00B58300E362EC /* main.swift */,
 			);
-			name = Frameworks;
+			path = enlight;
+			sourceTree = "<group>";
+		};
+		FF6882541E00A00B0003AC49 /* EnlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF68825E1E00A03D0003AC49 /* TestFiles */,
+				FF6882551E00A00B0003AC49 /* EnlightTests.swift */,
+				FF6882621E00A10A0003AC49 /* TestFile.swift */,
+				FF6882571E00A00B0003AC49 /* Info.plist */,
+			);
+			path = EnlightTests;
+			sourceTree = "<group>";
+		};
+		FF68825E1E00A03D0003AC49 /* TestFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FF68825F1E00A0600003AC49 /* SimpleStructWithNoCustomInit.swift */,
+				FF68826B1E00A8ED0003AC49 /* SimpleStructWithNoCustomInitOutput.swift */,
+			);
+			name = TestFiles;
 			sourceTree = "<group>";
 		};
 		FF7B39791DE4FB2B0035DB1F /* EnlightExtension */ = {
 			isa = PBXGroup;
 			children = (
-				FF7B397C1DE4FB2B0035DB1F /* SourceEditorExtension.swift */,
 				FF7B397E1DE4FB2B0035DB1F /* SourceEditorCommand.swift */,
 				FF7B39801DE4FB2B0035DB1F /* Info.plist */,
 				FF7B397A1DE4FB2B0035DB1F /* Supporting Files */,
@@ -245,59 +262,83 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FFC1CD261E00AE5500DAAFC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1CD271E00AE5500DAAFC0 /* Enlight.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF0B9AD81DAE5D56005D716E /* LensGenerator */ = {
+		FF164B2C1DE4B29A00D95777 /* EnlightFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF0B9AE61DAE5D56005D716E /* Build configuration list for PBXNativeTarget "LensGenerator" */;
-			buildPhases = (
-				FF0B9AD51DAE5D56005D716E /* Sources */,
-				FF0B9AD61DAE5D56005D716E /* Frameworks */,
-				FF0B9AD71DAE5D56005D716E /* Resources */,
-				FF0B9AF11DAE5F6C005D716E /* Copy Frameworks */,
-				FF7B39871DE4FB2B0035DB1F /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FF164B331DE4B29A00D95777 /* PBXTargetDependency */,
-				FF7B39821DE4FB2B0035DB1F /* PBXTargetDependency */,
-			);
-			name = LensGenerator;
-			productName = LensGenerator;
-			productReference = FF0B9AD91DAE5D56005D716E /* LensGenerator.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FF164B2C1DE4B29A00D95777 /* Enlight */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF164B361DE4B29A00D95777 /* Build configuration list for PBXNativeTarget "Enlight" */;
+			buildConfigurationList = FF164B361DE4B29A00D95777 /* Build configuration list for PBXNativeTarget "EnlightFramework" */;
 			buildPhases = (
 				FF164B281DE4B29A00D95777 /* Sources */,
 				FF164B291DE4B29A00D95777 /* Frameworks */,
 				FF164B551DE4B60800D95777 /* CopyFiles */,
+				FF6882671E00A4950003AC49 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Enlight;
+			name = EnlightFramework;
 			productName = Enlight;
-			productReference = FF164B2D1DE4B29A00D95777 /* Enlight.framework */;
+			productReference = FF164B2D1DE4B29A00D95777 /* EnlightFramework.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		FF3E6C091E00B57200E362EC /* enlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3E6C161E00B57200E362EC /* Build configuration list for PBXNativeTarget "enlight" */;
+			buildPhases = (
+				FF3E6C061E00B57200E362EC /* Sources */,
+				FF3E6C1D1E00B5BB00E362EC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE989A91E014813009B28EE /* PBXTargetDependency */,
+				FF3E6C1A1E00B59B00E362EC /* PBXTargetDependency */,
+			);
+			name = enlight;
+			productName = enlight;
+			productReference = FF3E6C0A1E00B57200E362EC /* enlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF6882521E00A00B0003AC49 /* EnlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF68825B1E00A00B0003AC49 /* Build configuration list for PBXNativeTarget "EnlightTests" */;
+			buildPhases = (
+				FF68824F1E00A00B0003AC49 /* Sources */,
+				FF6882501E00A00B0003AC49 /* Frameworks */,
+				FF6882511E00A00B0003AC49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF68825A1E00A00B0003AC49 /* PBXTargetDependency */,
+			);
+			name = EnlightTests;
+			productName = EnlightTests;
+			productReference = FF6882531E00A00B0003AC49 /* EnlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		FF7B39741DE4FB2B0035DB1F /* EnlightExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7B39841DE4FB2B0035DB1F /* Build configuration list for PBXNativeTarget "EnlightExtension" */;
 			buildPhases = (
+				FF3E6C201E00B75800E362EC /* CopyFiles */,
 				FF7B39711DE4FB2B0035DB1F /* Sources */,
-				FF7B39721DE4FB2B0035DB1F /* Frameworks */,
-				FF7B39731DE4FB2B0035DB1F /* Resources */,
-				FF7B39891DE510830035DB1F /* CopyFiles */,
+				FF2328381E01653B009AB935 /* Remove Framework */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FFEEF8A41E00BDC8000080EA /* PBXTargetDependency */,
 			);
 			name = EnlightExtension;
 			productName = EnlightExtension;
@@ -310,29 +351,35 @@
 		FF0B9AD11DAE5D56005D716E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Alexandru Culeva";
 				TargetAttributes = {
-					FF0B9AD81DAE5D56005D716E = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QE33WF5A23;
-						ProvisioningStyle = Automatic;
-					};
 					FF164B2C1DE4B29A00D95777 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = QE33WF5A23;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Manual;
 					};
-					FF7B39741DE4FB2B0035DB1F = {
-						CreatedOnToolsVersion = 8.1;
+					FF3E6C091E00B57200E362EC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QE33WF5A23;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+					FF6882521E00A00B0003AC49 = {
+						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = QE33WF5A23;
 						ProvisioningStyle = Automatic;
 					};
+					FF7B39741DE4FB2B0035DB1F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QE33WF5A23;
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
-			buildConfigurationList = FF0B9AD41DAE5D56005D716E /* Build configuration list for PBXProject "LensGenerator" */;
+			buildConfigurationList = FF0B9AD41DAE5D56005D716E /* Build configuration list for PBXProject "Enlight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -345,41 +392,44 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF0B9AD81DAE5D56005D716E /* LensGenerator */,
-				FF164B2C1DE4B29A00D95777 /* Enlight */,
+				FF3E6C091E00B57200E362EC /* enlight */,
+				FF164B2C1DE4B29A00D95777 /* EnlightFramework */,
 				FF7B39741DE4FB2B0035DB1F /* EnlightExtension */,
+				FF6882521E00A00B0003AC49 /* EnlightTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FF0B9AD71DAE5D56005D716E /* Resources */ = {
+		FF6882511E00A00B0003AC49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9494E41DB3F58C00FC462E /* test.swift in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF7B39731DE4FB2B0035DB1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF9B84951E0097AB00556638 /* sourcekitd.framework in Resources */,
+				FF68826D1E00AA500003AC49 /* SimpleStructWithNoCustomInitOutput.swift in Resources */,
+				FF6882651E00A2EA0003AC49 /* SimpleStructWithNoCustomInit.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXSourcesBuildPhase section */
-		FF0B9AD51DAE5D56005D716E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		FF2328381E01653B009AB935 /* Remove Framework */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF0B9AEA1DAE5D61005D716E /* main.swift in Sources */,
+			);
+			inputPaths = (
+			);
+			name = "Remove Framework";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# The framework from products folder is getting linked instead of the one from the bundle\n\nrm -rf ${BUILT_PRODUCTS_DIR}/EnlightFramework.framework";
 		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		FF164B281DE4B29A00D95777 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,11 +444,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF3E6C061E00B57200E362EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3E6C181E00B58300E362EC /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF68824F1E00A00B0003AC49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6882561E00A00B0003AC49 /* EnlightTests.swift in Sources */,
+				FF6882631E00A10A0003AC49 /* TestFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF7B39711DE4FB2B0035DB1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7B397D1DE4FB2B0035DB1F /* SourceEditorExtension.swift in Sources */,
 				FF7B397F1DE4FB2B0035DB1F /* SourceEditorCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,15 +472,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FF164B331DE4B29A00D95777 /* PBXTargetDependency */ = {
+		FF3E6C1A1E00B59B00E362EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF164B2C1DE4B29A00D95777 /* Enlight */;
-			targetProxy = FF164B321DE4B29A00D95777 /* PBXContainerItemProxy */;
+			target = FF164B2C1DE4B29A00D95777 /* EnlightFramework */;
+			targetProxy = FF3E6C191E00B59B00E362EC /* PBXContainerItemProxy */;
 		};
-		FF7B39821DE4FB2B0035DB1F /* PBXTargetDependency */ = {
+		FF68825A1E00A00B0003AC49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF164B2C1DE4B29A00D95777 /* EnlightFramework */;
+			targetProxy = FF6882591E00A00B0003AC49 /* PBXContainerItemProxy */;
+		};
+		FFE989A91E014813009B28EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FF7B39741DE4FB2B0035DB1F /* EnlightExtension */;
-			targetProxy = FF7B39811DE4FB2B0035DB1F /* PBXContainerItemProxy */;
+			targetProxy = FFE989A81E014813009B28EE /* PBXContainerItemProxy */;
+		};
+		FFEEF8A41E00BDC8000080EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF164B2C1DE4B29A00D95777 /* EnlightFramework */;
+			targetProxy = FFEEF8A31E00BDC8000080EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,48 +589,6 @@
 			};
 			name = Release;
 		};
-		FF0B9AE71DAE5D56005D716E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QE33WF5A23;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/LensGenerator",
-				);
-				INFOPLIST_FILE = LensGenerator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		FF0B9AE81DAE5D56005D716E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = QE33WF5A23;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/LensGenerator",
-				);
-				INFOPLIST_FILE = LensGenerator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		FF164B371DE4B29A00D95777 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -575,9 +609,10 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Enlight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight.EnlightFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -609,9 +644,10 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Enlight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight.EnlightFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -622,17 +658,80 @@
 			};
 			name = Release;
 		};
+		FF3E6C141E00B57200E362EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				INFOPLIST_FILE = enlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF3E6C151E00B57200E362EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				INFOPLIST_FILE = enlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF68825C1E00A00B0003AC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				INFOPLIST_FILE = EnlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.EnlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF68825D1E00A00B0003AC49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QE33WF5A23;
+				INFOPLIST_FILE = EnlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.EnlightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		FF7B39851DE4FB2B0035DB1F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = EnlightExtension/EnlightExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QE33WF5A23;
+				FRAMEWORK_SEARCH_PATHS = "@loader_path/../Frameworks";
 				INFOPLIST_FILE = EnlightExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator.EnlightExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight.EnlightExtension;
 				PRODUCT_NAME = Optics;
 				SKIP_INSTALL = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -644,14 +743,16 @@
 		FF7B39861DE4FB2B0035DB1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_ENTITLEMENTS = EnlightExtension/EnlightExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = QE33WF5A23;
+				FRAMEWORK_SEARCH_PATHS = "@loader_path/../Frameworks";
 				INFOPLIST_FILE = EnlightExtension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = com.s2dent.LensGenerator.EnlightExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aculeva.Enlight.EnlightExtension;
 				PRODUCT_NAME = Optics;
 				SKIP_INSTALL = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -663,7 +764,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF0B9AD41DAE5D56005D716E /* Build configuration list for PBXProject "LensGenerator" */ = {
+		FF0B9AD41DAE5D56005D716E /* Build configuration list for PBXProject "Enlight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF0B9AE41DAE5D56005D716E /* Debug */,
@@ -672,20 +773,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF0B9AE61DAE5D56005D716E /* Build configuration list for PBXNativeTarget "LensGenerator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF0B9AE71DAE5D56005D716E /* Debug */,
-				FF0B9AE81DAE5D56005D716E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF164B361DE4B29A00D95777 /* Build configuration list for PBXNativeTarget "Enlight" */ = {
+		FF164B361DE4B29A00D95777 /* Build configuration list for PBXNativeTarget "EnlightFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF164B371DE4B29A00D95777 /* Debug */,
 				FF164B381DE4B29A00D95777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3E6C161E00B57200E362EC /* Build configuration list for PBXNativeTarget "enlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3E6C141E00B57200E362EC /* Debug */,
+				FF3E6C151E00B57200E362EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF68825B1E00A00B0003AC49 /* Build configuration list for PBXNativeTarget "EnlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF68825C1E00A00B0003AC49 /* Debug */,
+				FF68825D1E00A00B0003AC49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -21,7 +21,9 @@ public struct Parser {
     }
     
     public init(source: String) {
-        dictionary = Structure(file: File(contents: source)).dictionary
+        let file = File(contents: source)
+        let structure = Structure(file: file)
+        dictionary = structure.dictionary
     }
     
     public var json: JSON<Model>? {
@@ -53,18 +55,16 @@ public struct Parser {
 func lens(container: String, models: [Model]) -> String {
     return "extension \(container) {" + newLine +
         models.map { lens(container: container, models: models, name: $0.name, tabs: 1) }.joined(separator: "\n\n") + newLine +
-    "}"
+    "}\n"
 }
 
 func lens(container: String, models: [Model], name: String, tabs: Int = 0) -> String {
     guard let currentModel = models.lazy.filter({ $0.name == name }).first else { return "" }
     let setterInit = "\(container)(\(models.map { $0.name + ": " + ($0.name == name ? "$0" : "$1.\($0.name)") }.joined(separator: ", ") + ")")"
-    return tabS(tabs) + "static var \(name)Lens: Lens<\(container), \(currentModel.type)> {" + newLine +
-        tabS(tabs + 1) + "return Lens<\(container), \(currentModel.type)>(" + newLine +
-        tabS(tabs + 2) + "get: { $0.\(currentModel.name) }," + newLine +
-        tabS(tabs + 2) + "set: { \(setterInit) }" + newLine +
-        tabS(tabs + 1) + ")" + newLine +
-    tabS(tabs) + "}"
+    return tabS(tabs) + "static let \(name)Lens = Lens<\(container), \(currentModel.type)>(" + newLine +
+        tabS(tabs + 1) + "get: { $0.\(currentModel.name) }," + newLine +
+        tabS(tabs + 1) + "set: { \(setterInit) }" + newLine +
+        tabS(tabs) + ")"
 }
 
 func tabS(_ tabs: Int = 0) -> String {

@@ -8,7 +8,7 @@
 
 import Foundation
 import XcodeKit
-import Enlight
+import EnlightFramework
 
 class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     

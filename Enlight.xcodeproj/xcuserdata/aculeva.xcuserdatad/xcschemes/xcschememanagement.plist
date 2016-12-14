@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Enlight.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 		<key>EnlightExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>LensGenerator.xcscheme</key>
+		<key>EnlightFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>enlight.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -32,12 +32,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>FF3E6C091E00B57200E362EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF6882521E00A00B0003AC49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FF7B39651DE4FA3F0035DB1F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>FF7B39741DE4FB2B0035DB1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFB44A1C1E00AFB7009D02A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
